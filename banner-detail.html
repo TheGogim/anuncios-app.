@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cargando contenido...</title>
+    <style>
+        body {
+            background-color: #0f1115; /* Fondo oscuro tipo Netflix/CineRate */
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .context-text {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .ad-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-    <script>
+    
+    <!-- Este texto le da "contexto humano" a los bots de Google/Adsterra -->
+    <div class="context-text" id="movie-text">Descubre más películas recomendadas...</div>
+
+    <div class="ad-container">
+        <!-- AQUI_VA_TU_SCRIPT_ADSTERRA -->
+<script>
   atOptions = {
     'key' : 'fdd11784a5086f4862ba4af897881d51',
     'format' : 'iframe',
@@ -17,5 +48,20 @@
 </script>
 <script src="https://www.highperformanceformat.com/fdd11784a5086f4862ba4af897881d51/invoke.js"></script>
 
+    </div>
+
+    <script>
+        // Esta es la magia: Atrapa el título que le mandamos desde React
+        const params = new URLSearchParams(window.location.search);
+        const title = params.get('title');
+        
+        if (title) {
+            // Cambia el título invisible de la pestaña
+            document.title = "Ver " + title + " Online Gratis HD";
+            
+            // Cambia el texto visible
+            document.getElementById('movie-text').innerText = "Patrocinador destacado para: " + title;
+        }
+    </script>
 </body>
 </html>
