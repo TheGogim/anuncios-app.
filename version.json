@@ -10,8 +10,8 @@
     ]
   },
   "windows": {
-    "version": "3.1.0",
-    "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v8.0/CineRate.Setup.2.0.0.exe",
+    "version": "2.1.0",
+    "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v8.1/CineRate.Setup.2.1.0.exe",
     "notes": [
       "### Novedades en PC",
       "- Se corrigió el problema de cierres falsos al actualizar",
