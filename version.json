@@ -1,12 +1,22 @@
 {
   "android": {
-    "version": "8.0",
+    "version": "8.1",
     "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v8.0/app-releasev8.0.apk",
-    "notes": "Cambios de la versión de Android"
+    "notes": [
+      "### Novedades en Android",
+      "- Se añadió soporte para AnimeFLV",
+      "- Mejoras en la estabilidad del reproductor",
+      "- El progreso ahora se guarda cada 10s"
+    ]
   },
   "windows": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v8.0/CineRate.Setup.2.0.0.exe",
-    "notes": "Cambios de la versión de PC"
+    "notes": [
+      "### Novedades en PC",
+      "- Se corrigió el problema de cierres falsos al actualizar",
+      "- Ya no se pierden los tiempos de reproducción (Bug del tiempo 0 resuelto)",
+      "- Integración local para Torrent optimizada"
+    ]
   }
 }
