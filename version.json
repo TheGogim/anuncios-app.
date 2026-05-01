@@ -4,19 +4,27 @@
     "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v8.1/app-releasev8.1.apk",
     "notes": [
       "### Novedades en Android",
-      "- Se añadió soporte para AnimeFLV",
-      "- Mejoras en la estabilidad del reproductor",
-      "- El progreso ahora se guarda cada 10s"
+      "- Se mejoró el sistema del reproductor ExoPlayer para guardar correctamente el progreso",
+      "- Corrección de errores relacionados con el guardado de reproducción",
+      "- Mejoras generales de estabilidad y rendimiento",
+      "- Nuevo apartado para compartir la aplicación desde configuraciones",
+      "- Se optimizó la detección de nuevas versiones y ahora la descarga abre directamente en el navegador",
+      "- Corrección de múltiples errores menores"
     ]
   },
   "windows": {
     "version": "2.1.0",
     "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v8.1/CineRate.Setup.2.1.0.exe",
     "notes": [
-      "### Novedades en PC",
-      "- Se corrigió el problema de cierres falsos al actualizar",
-      "- Ya no se pierden los tiempos de reproducción (Bug del tiempo 0 resuelto)",
-      "- Integración local para Torrent optimizada"
+      "### Novedades en Windows",
+      "- Ahora se guarda correctamente el progreso del Servidor 2",
+      "- Se corrigió el problema donde era necesario desinstalar manualmente para actualizar",
+      "- El sistema de actualización ha sido mejorado (ya no requiere desinstalación previa en la mayoría de casos)",
+      "- Nota: si aún presenta errores al actualizar, se recomienda reinstalar debido a cambios en la carpeta de instalación",
+      "- TorrServer ahora funciona de forma local, eliminando la necesidad de usar una URL externa",
+      "- Mejora en la detección de nuevas versiones con descarga directa desde el navegador",
+      "- Correcciones generales de errores y mejoras de estabilidad",
+      "- Próximamente: rediseño de la interfaz del reproductor MPV"
     ]
   }
 }
