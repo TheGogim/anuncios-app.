@@ -1,30 +1,35 @@
 {
   "android": {
-    "version": "8.1",
-    "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v8.1/app-releasev8.1.apk",
+    "version": "9.0",
+    "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v9.0/app-releasev9.0.apk",
     "notes": [
       "### Novedades en Android",
-      "- Se mejoró el sistema del reproductor ExoPlayer para guardar correctamente el progreso",
-      "- Corrección de errores relacionados con el guardado de reproducción",
+      "- Nuevo soporte para cuentas multidispositivo",
+      "- Ahora los datos se sincronizan automáticamente entre dispositivos mediante cuenta",
+      "- Se rediseñaron completamente los ajustes para una mejor organización",
+      "- Se añadieron nuevas políticas dentro de la aplicación",
       "- Mejoras generales de estabilidad y rendimiento",
-      "- Nuevo apartado para compartir la aplicación desde configuraciones",
-      "- Se optimizó la detección de nuevas versiones y ahora la descarga abre directamente en el navegador",
-      "- Corrección de múltiples errores menores"
+      "- Corrección de múltiples errores menores",
+      "- Próximamente: nuevo reproductor definitivo para Android con VLC integrado",
+      "- Próximamente: mejoras de estilo y compatibilidad general del reproductor",
+      "- Próximamente: mejora total del soporte para versiones TV en los ajustes",
+      "- Nota: en televisores sin mouse se recomienda usar el Servidor 2 debido a ciertos anuncios externos que requieren interacción"
     ]
   },
   "windows": {
-    "version": "2.1.0",
-    "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v8.1/CineRate.Setup.2.1.0.exe",
+    "version": "3.0.0",
+    "url": "https://github.com/TheGogim/movie-muse-ai/releases/download/v9.0/CineRate.Setup.3.0.0.exe",
     "notes": [
       "### Novedades en Windows",
-      "- Ahora se guarda correctamente el progreso del Servidor 2",
-      "- Se corrigió el problema donde era necesario desinstalar manualmente para actualizar",
-      "- El sistema de actualización ha sido mejorado (ya no requiere desinstalación previa en la mayoría de casos)",
-      "- Nota: si aún presenta errores al actualizar, se recomienda reinstalar debido a cambios en la carpeta de instalación",
-      "- TorrServer ahora funciona de forma local, eliminando la necesidad de usar una URL externa",
-      "- Mejora en la detección de nuevas versiones con descarga directa desde el navegador",
-      "- Correcciones generales de errores y mejoras de estabilidad",
-      "- Próximamente: rediseño de la interfaz del reproductor MPV"
+      "- Se mejoraron significativamente los estilos y la interfaz del reproductor MPV",
+      "- Nuevo sistema de anime con mejor soporte para trailers, secuelas y precuelas",
+      "- Próximamente se agregará servidor dedicado para el nuevo sistema de anime",
+      "- Nuevo soporte para cuentas multidispositivo",
+      "- Ahora los datos se sincronizan automáticamente entre dispositivos mediante cuenta",
+      "- Se rediseñaron completamente los ajustes para una mejor organización",
+      "- Se añadieron nuevas políticas dentro de la aplicación",
+      "- Mejoras generales de estabilidad y rendimiento",
+      "- Corrección de múltiples errores menores"
     ]
   }
 }
